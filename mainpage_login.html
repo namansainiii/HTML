@@ -1,0 +1,270 @@
+<html>
+    <head>
+        <title>ELECTRO</title>
+        <style>
+            body{
+                width: 97%;
+                background-color: rgb(243, 211, 211);}
+            .first{
+                margin: 10px;
+                background-color: rgb(82, 78, 78);
+                width: 100%;
+                height: 5%;
+            }
+            .second{
+                width: 20%;
+                height: 7%;
+                font-family: Forte;
+                font-size: 40px;
+                margin-left: 500px;
+                letter-spacing: 10px;
+                text-align: center;
+                padding-top:20px ;
+                padding-left: 10px;
+                border-radius: 50%;
+                background-color: rgb(249, 130, 130);
+            }
+            .third{
+                margin: 10px;
+                background-color: rgb(82, 78, 78);
+                width: 100%;
+                height: 6.7%;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            .home a{
+                text-decoration: none;
+                color: bisque;
+            }
+            .home a:hover{
+                color: whitesmoke;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+            .others a{
+                text-decoration: none;
+                color :whitesmoke;
+            }
+            .others a:hover{
+                color: bisque;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+            .third li{
+                color: rgb(255, 255, 255);
+                margin-left: 90px;
+                font-weight: 30px;
+                padding: 10px;
+                margin-top: 10px;
+                display: inline;
+                line-height: 40px;
+            }
+            .products{
+                display: none;
+            }
+            .products ul li:hover{
+                display:block;
+            }
+            .fourth{
+                height:10%;
+                width: 100%;
+            }
+            .fourth img{
+                margin-left: 45px ;
+                padding: 10px;
+                width: 90%;
+                height: 500px;
+            }
+             .fifth{
+                margin-top: 490px;
+                height: 200%;
+                width: 100%;
+            }
+            .fifth1{
+                display: flex;
+                height: 30%;
+                width: 100%;
+            }
+            .fifth1 img{
+                border: 1px solid white;
+                margin-top: 50px;
+                margin-left: 60px;
+                height: 250px;width: 350px;
+            }
+            .fifth11{
+                background-color: rgb(82, 78, 78);
+                border-radius: 20%;
+                margin-top: 10px;
+                margin-left:150px ;
+                height: 100%;
+                width:40%;}
+            .fifth12{
+                background-color: rgb(82, 78, 78);
+                border-radius: 20%;
+                margin-top: 10px;
+                margin-right:150px ;
+                height: 100%;
+                width:40%;}
+            .sixth{
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin-top: 70px;
+                height: 20%;
+                width: 100%;
+            }
+            .sixth img{
+                margin: 20px;
+                border: 2px solid black;
+                height: 100px; width: 100px;padding: 20px;
+            }
+            .seven{
+                margin: 10px;
+                width: 100%;
+                height: 15%;
+            }
+            p{
+                text-align: center;
+                padding: 70px;
+                color: aliceblue;
+            }
+            .fifth11 img:hover{opacity: 0.3;}
+            .fifth12 a{
+                text-decoration: none;
+                color: bisque;
+            }
+            .fifth12 a:hover{
+                color: whitesmoke;
+                font-size: 30px;
+                text-decoration:overline underline;
+            }
+            .fifth_demo{
+                text-align: center;
+                background-color: rgb(82, 78, 78);
+                border-radius: 20%;
+                margin-top: 10px;
+                margin-right:150px ;
+                height: 100%;
+                width:40%;
+            }
+            .fifth_demo a{
+                font-size: 70px;
+                line-height: 90px;
+                text-decoration: none;
+                color: bisque;
+            }
+            .fifth_demo a:hover{
+                color: whitesmok;
+                text-decoration:overline underline;
+            }
+            .sixth img:hover{box-shadow: 0px 1px  black;}
+            button{margin-left: 1100px;height: 50px;
+                border: 2 px solid rgb(82, 78, 78);
+                border-radius: 30%;
+                margin-top: -50px;
+                margin-bottom: 10px;
+            padding: 10px;}
+           
+        </style>
+    </head>
+    <body>
+            <div class="first"></div>
+           <script>document.write(Date());</script> 
+            <div class="second">ELECTRO</div>
+            <div class="third">
+                <ul type="none">
+                    <li class="home"><a href="mainpage_login.html">Home</a></li>
+                    <li class="others"><a href="products.html">Products</a></li>
+                    <li class="others"><a href="purchases.html">Purchases</a></li>
+                    <li class="others"><a href="aboutus.html">About Us</a></li>
+                    <li class="others"><a href="feedback.html">Feedback</a></li>
+                    <li class="others"><a href="main_page.html">Log Out</a></li>
+                </ul></div>
+            <div class="fourth">
+                <img id="myImage" onclick="changeImage()" src="startingpic.jpg" >
+            </div>
+            <script>
+                function changeImage() {
+                    var image = document.getElementById('myImage');
+                    if (image.src.match("bulbon")) {
+                        image.src = "startingpic.jpg";
+                    } else {
+                        image.src = "starting.png";
+                    }
+                }
+                </script>
+            <div class="fifth">
+                <div class="fifth1">
+                    <div class="fifth11">
+                        <img src="fans.jpg" alt="image not found">
+                    </div>
+                    <div class="fifth12">
+                       <p>Punkah style ceiling fans are based on the earliest form of a fan, which was first invented in India around 500 BC. These were cut from an Indian palmyra leaf which forms its rather large blade, moving slowly in a pendular manner. Originally operated manually by a cord and nowadays powered electrically using a belt-driven system, these punkahs move air by going to and fro. 
+                        <br><br><a href="tour_on_fans.html">Tour On Fans</a>
+                       </p>  </div>
+                </div>
+                <div class="fifth1">
+                    <div class="fifth11">
+                        <img src="led-tv.jpg" alt="image not found">
+                    </div>
+                    <div class="fifth12">
+                        <p>A smart TV, also known as a connected TV (CTV), is a traditional television set with integrated Internet and interactive Web 2.0 features, which allows users to stream music and videos, browse the internet, and view photos. Smart TVs are a technological convergence of computers, televisions, and digital media players.
+                            <br><br><a href="tour_on_led-tv.html">Tour On LEDs</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="fifth1">
+                    <div class="fifth11">
+                        <img src="washing-machine.jpg" alt="image not found">
+                    </div>
+                    <div class="fifth12">
+                        <p>A washing machine (laundry machine, clothes washer, washer, or simply wash) is a home appliance used to wash laundry. The term is mostly applied to machines that use water as opposed to dry cleaning (which uses alternative cleaning fluids and is performed by specialist businesses) or ultrasonic cleaners. The user adds laundry detergent, which is sold in liquid or powder form, to the wash water.
+                            <br><br><a href="tour_on_washing.html">Tour On Washing Machine</a>
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="fifth1">
+                    <div class="fifth11">
+                        <img src="a.c..jpg" alt="image not found">
+                    </div>
+                    <div class="fifth12">
+                        <p>Air conditioning, often abbreviated as A/C or AC, is the process of removing heat from an enclosed space to achieve a more comfortable interior environment and in some cases also strictly controlling the humidity of internal air. Air conditioning can be achieved using a mechanical 'air conditioner' or alternatively a variety of other methods, including passive cooling and ventilative cooling. 
+                            <br><br><a href="tour_on_ac.html">Tour On A.C.s</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="fifth1">
+                    <div class="fifth11">
+                        <img src="fridge.jpg" alt="image not found">
+                    </div>
+                    <div class="fifth12">
+                        <p>A refrigerator, colloquially fridge, is a commercial and home appliance consisting of a thermally insulated compartment and a heat pump (mechanical, electronic or chemical) that transfers heat from its inside to its external environment so that its inside is cooled to a temperature below the room temperature. Refrigeration is an essential food storage technique around the world.
+                            <br><br><a href="tour_on_fridge.html">Tour On Refrigerator</a>    
+                        </p></div></div>
+                        <div class="fifth1">
+                            <div class="fifth11">
+                                <img src="electro.jpg" alt="image not found">
+                            </div>
+                            <div class="fifth_demo"><br><br><a href="demo_page.html">Video's For Your <br>Reference</a>
+                                </p>
+                            </div>
+                        </div>
+            <div class="sixth"><ins>SOME OF THE BRANDS WE OFFER</ins><br>
+                <img src="kyiv-ukraine-april-06-2019-haier-logo-closeup-on-booth-at-cee-2019-the-largest-electronics-trade-show-of-ukraine-haier-is-a-multinational-home-2ATCB0G.jpg" alt="image not found">
+                 <img src="hitachi-logo-as-an-app-icon-clipping-path-included-D8P8MG.jpg" alt="image not found">
+                 <img src="lg-electronics-logo-as-an-app-icon-clipping-path-included-D94WWX.jpg" alt="image not found">
+                <img src="usha.png" alt="image not found">
+                <img src="havells.png" alt="image not found">
+                <img src="whirlpool-logo-chrome-metal-surface-on-background-2AGR4WP.jpg" alt="image not found">
+            </div>
+            <div class="seven">CONTACTS</div>
+            <div class="third">
+                <ul type="none">
+                    <li class="home"><a href="main_page.html">Home</a></li>
+                    <li class="others"><a href="products.html">Products</a></li>
+                    <li class="others"><a href="purchases.html">Purchases</a></li>
+                    <li class="others"><a href="aboutus.html">About Us</a></li>
+                    <li class="others"><a href="feedback.html">Feedback</a></li>
+                    <li class="others"><a href="main_page.html">Log Out</a></li>
+                </ul></div>
+    </body>
+</html>

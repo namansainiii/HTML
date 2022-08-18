@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>SIGN UP PAGE</title>
+        <style>
+            button{border-radius: 5px;padding: 10px;
+                background-color: rgb(249, 130, 130);
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover{
+                color: bisque;
+            }
+            body{text-align: center;
+            margin-left: 400px; background-color: rgb(249, 130, 130);}
+            fieldset{border-radius: 20px;padding-top: 1px;
+                padding-bottom: 40px;box-shadow: 0px 3px 0px 3px  white; 
+                background-color: aliceblue;height: 90%; width: 50%;border: 3px solid black; color:black;}
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <br><br>
+                 FIRST NAME*
+                 <input type="text" name="first_name" placeholder="First Name" required><br><br>
+                 LAST NAME
+                 <input type="text" name="last_name" placeholder="Last Name"><br><br>
+                 CONTACT NUMBER*
+                 <input type="text" required name="contact_number" placeholder="0123456789"><br><br>
+                 EMAIL-ID*
+                 <input type="email" required name="email_id" placeholder="abc@gmail.com"><br><br>
+                 PASSWORD*
+                 <input type="password" required name="password" placeholder="********"><br><br>
+                 CHOOSE YOUR PREFERENCE<br>
+                 <input type="checkbox" name="preference" value="Fans">Fans
+                 <input type="checkbox" name="preference" value="LEDs">LEDs (Modern T.V.)<br>
+                 <input type="checkbox" name="preference" value="Washing Machine">Washing Machine
+                 <input type="checkbox" name="preference" value="A.C.">A.C.
+                 <input type="checkbox" name="preference" value="Fridge">Fridge<br><br>
+                 SELECT YOUR STATE
+                 <input list="state">
+                 <datalist id="state" >
+                 <option value="state">
+                 </datalist><br><br>
+                 ENTER YOUR CITY
+                 <input type="text"><br><br>
+                 ENTER YOUR ZIPCDOE
+                 <input type="text"><br><br>
+            <button type="submit"><a href="mainpage_login.html">REGISTER</a> </button><br>
+            <p>Have An Account?</p>
+            <button type="submit"><a href="login.html">Login</a> </button>
+        </fieldset>
+        </form>
+    </body>
+</html>
